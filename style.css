@@ -245,6 +245,9 @@ h1{
   .mobile {
     flex-direction: column;
   }
+    .top-nav {
+      padding: 0 5vh;
+    }
 
   nav .fa-bars {
     display: block;
@@ -253,5 +256,8 @@ h1{
   }
   .links{
     display:none;
+  }
+  .footer{
+    padding: 5vw;
   }
 }
