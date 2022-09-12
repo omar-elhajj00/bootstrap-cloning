@@ -61,11 +61,7 @@ h1{
 
 .hero {
   background:#1abc9c;
-  /* background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
   color: #fff;
-  /* position: relative; */
 }
 
 .hero-content {
@@ -83,7 +79,11 @@ h1{
   margin-bottom: 40px;  
 }
 
+
+
+
 /* portfolio section */
+
 .portfolio-images {
   display: flex;
   justify-content: space-between;
@@ -125,7 +125,10 @@ h1{
 }
 
 
+
 /* about section */
+
+
 .about-container {
   background: #1abc9c;
   color: #fff;
@@ -166,7 +169,10 @@ h1{
   cursor: pointer;
 }
 
+
+
 /* contact us section */
+
 .contact-us-container{
   margin-top: 5vh;
   color: #2c3e50;
@@ -221,12 +227,7 @@ h1{
   color: rgb(255, 255, 255);
 }
 
-/* Utlities */
 
-.container {
-  padding: 0;
-  width: 100%;
-}
 
 
 /* Media Query */
@@ -243,13 +244,5 @@ h1{
   }
   .links{
     display:none;
-  }
-
-  .media-images > img {
-    width: 100%;
-  }
-
-  .program-images > div {
-    width: 100%;
   }
 }
