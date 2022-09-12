@@ -24,6 +24,11 @@ img {
   height: 80px;
 
 }
+
+nav .fa-bars {
+  display: none;
+}
+
 h1{
   font-family: 'Kanit', sans-serif;
 }
@@ -229,6 +234,15 @@ h1{
 @media only screen and (max-width: 800px) {
   .mobile {
     flex-direction: column;
+  }
+
+  nav .fa-bars {
+    display: block;
+    font-size: 3rem;
+    align-self: center;
+  }
+  .links{
+    display:none;
   }
 
   .media-images > img {
