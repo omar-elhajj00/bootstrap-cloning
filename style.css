@@ -192,6 +192,12 @@ h1{
   color: white;
   border-radius: .5rem;
 }
+.contact-us-container form button:hover {
+
+  background-color: #15947b;
+  transition: .2s;
+  cursor:pointer;
+}
 
 /* Footer */
 
