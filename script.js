@@ -40,8 +40,11 @@ function validateInfo() {
     //     alert('Please fill in password');
 
     // }
-    else if (phoneNumber.value.substring(0,3) != "+961") {
+    else if (phoneNumber.value.substring(0,4) != "+961") {
         phoneNumberWarning.innerHTML = 'the phone number should start with +961';
+    }
+    else if (phoneNumber.value.substring(4,phoneNumber.value.length).length != 8) {
+        phoneNumberWarning.innerHTML = 'the phone number should have 8 digits after +961';
     }
     // else if (pw.value.length > 8) {
     //     alert('Max of 8');
