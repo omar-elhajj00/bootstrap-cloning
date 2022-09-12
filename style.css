@@ -260,4 +260,7 @@ h1{
   .footer{
     padding: 5vw;
   }
+  h1{
+    font-size: 80%;
+  }
 }
