@@ -87,6 +87,24 @@ img {
   text-align: center;
 }
 
+
+.about-container{
+  background: #1abc9c;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1vh 0 30vh 0;
+}
+
+.columns-container{
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 20vh; */
+}
+.column-content{
+  max-width: 30vw;
+}
 .company-numbers-part {
   width: 33.3%;
 }
@@ -111,6 +129,13 @@ img {
   max-width: 50vh;
   margin :0.4vw;
   border-radius: .7rem;
+  /* margin: 1rem; */
+  /* margin-right: vh; */
+}
+.portfolio-images img:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+  transition: .2s;
   /* margin: 1rem; */
   /* margin-right: vh; */
 }
