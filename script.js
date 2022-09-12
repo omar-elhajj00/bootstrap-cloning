@@ -10,6 +10,7 @@ let fullNAmeWarning = document.getElementById('fname-warning');
 let emailWarning = document.getElementById('email-warning');
 let phoneNumberWarning = document.getElementById('phone-num-warning');
 let messageWarning = document.getElementById('message-warning');
+let successMessage = document.getElementById('success-msg');
 
 
 const sendButton = document.getElementById('send-btn')
@@ -35,16 +36,21 @@ function validateInfo() {
     if (fullName.value.length < 5) {
         fullNAmeWarning.innerHTML = 'the name must be more than 5 characters';
     }
-    // else if (pw.value.length == 0) {
-        
-    //     alert('Please fill in password');
-
-    // }
+    // check if the phone number start with +961
     else if (phoneNumber.value.substring(0,4) != "+961") {
         phoneNumberWarning.innerHTML = 'the phone number should start with +961';
     }
+    // check if there are 8 digits after +961 in phone number input
     else if (phoneNumber.value.substring(4,phoneNumber.value.length).length != 8) {
         phoneNumberWarning.innerHTML = 'the phone number should have 8 digits after +961';
+    }
+    // check if the message have less than 100 characters
+    else if (message.value.length<100) {
+        messageWarning.innerHTML = 'message should have in minimum 100 characters';
+    }
+    else {
+        console.log('hahahahhah')
+        successMessage.innerHTML = 'All is good , thank you';
     }
     // else if (pw.value.length > 8) {
     //     alert('Max of 8');
