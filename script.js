@@ -49,8 +49,11 @@ function validateInfo() {
         messageWarning.innerHTML = 'message should have in minimum 100 characters';
     }
     else {
-        console.log('hahahahhah')
-        successMessage.innerHTML = 'All is good , thank you';
+        successMessage.innerHTML = 'All is good , thank you'; 
+        messageWarning.innerHTML = "";
+        phoneNumberWarning.innerHTML = "";
+        fullNAmeWarning.innerHTMl = "";
+        
     }
     // else if (pw.value.length > 8) {
     //     alert('Max of 8');
