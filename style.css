@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 img {
@@ -13,9 +13,16 @@ img {
 /* Nav Bar*/
 
 .top-nav {
+  /* max-width: 100%; */
+  background-color: #2c3e50;
+  padding: 0 20vh;
   display: flex;
   justify-content: space-between;
   height: 80px;
+}
+
+.top-nav h1{
+  align-self: center;
 }
 
 .links {
@@ -42,27 +49,27 @@ img {
 /* Hero */
 
 .hero {
-  background: url("./images/presentation.JPG");
-  background-size: cover;
+  background:#1abc9c;
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   color: #fff;
-  position: relative;
+  /* position: relative; */
 }
 
 .hero-content {
-  padding: 40vh 0 10vh 0;
-  width: 50%;
+  /* align-content: center;
+  justify-content: space-between; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20vh 0 30vh 0;
+  /* width: 50%; */
 }
 
 .hero-heading {
   font-size: 64px;
   margin-bottom: 40px;  
-}
-
-.hero-paragraph {
-  font-size: 32px;
-  margin-bottom: 30px;
 }
 
 /* Company Stats */
@@ -278,7 +285,7 @@ img {
 /* Utlities */
 
 .container {
-  padding: 0 12vh;
+  padding: 0;
   width: 100%;
 }
 
