@@ -182,8 +182,24 @@ h1{
   align-items: flex-start;
 }
 
-.contact-us-container form input{
-  max-width: 100%;
+.contact-us-container form input[type=text]{
+  width:40vw;
+  height: 7vh;
+  margin-bottom: 1rem;
+}
+.contact-us-container form input[type=email]{
+  width:40vw;
+  height: 7vh;
+  margin-bottom: 1rem;
+}
+.contact-us-container form input[type=number]{
+  width:40vw;
+  height: 7vh;
+  margin-bottom: 1rem;
+}
+.contact-us-container form textarea{
+  width:40vw;
+  height: 20vh;
   margin-bottom: 1rem;
 }
 
