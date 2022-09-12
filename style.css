@@ -19,6 +19,7 @@ img {
   display: flex;
   justify-content: space-between;
   height: 80px;
+
 }
 
 .top-nav h1{
@@ -72,9 +73,7 @@ img {
   margin-bottom: 40px;  
 }
 
-/* portfolio */
-
-
+/* portfolio section */
 .portfolio-images {
   display: flex;
   justify-content: space-between;
@@ -155,6 +154,17 @@ img {
   background-color: #e6e6e6;
   transition:.4s;
   cursor: pointer;
+}
+
+/* contact us section */
+.contact-us-container{
+  margin-top: 5vh;
+  color: #2c3e50;
+  font-size: 48px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .stat-description {
