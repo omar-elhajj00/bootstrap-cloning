@@ -72,11 +72,8 @@ img {
   margin-bottom: 40px;  
 }
 
-/* Company Stats */
+/* portfolio */
 
-.company-stats {
-  margin-bottom: 50px;
-}
 
 .portfolio-images {
   display: flex;
@@ -85,28 +82,6 @@ img {
   padding: 0 13vw;
   margin: 50px 0;
   text-align: center;
-}
-
-
-.about-container{
-  background: #1abc9c;
-  color: #fff;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding: 1vh 0 30vh 0;
-}
-
-.columns-container{
-  display: flex;
-  justify-content: space-between;
-  /* max-width: 20vh; */
-}
-.column-content{
-  max-width: 30vw;
-}
-.company-numbers-part {
-  width: 33.3%;
 }
 
 .portfolio {
@@ -140,6 +115,47 @@ img {
   /* margin-right: vh; */
 }
 
+
+/* about section */
+.about-container {
+  background: #1abc9c;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3vh 0 30vh 0;
+  font-size: 2rem;
+}
+
+.columns-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* max-width: 20vh; */
+}
+
+.column-content {
+  max-width: 30vw;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+
+.about-container button{
+  width:15vw;
+  margin-top: 7vh;
+  height: 6vh;
+  background-color: rgba(245, 245, 220, 0);
+  border: white 1px solid;
+  border-radius:1rem;
+  color:white;
+}
+.about-container button:hover{
+  color:#000;
+  background-color: #e6e6e6;
+  transition:.4s;
+  cursor: pointer;
+}
 
 .stat-description {
   font-size: 32px;
