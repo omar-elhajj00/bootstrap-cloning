@@ -12,6 +12,7 @@ img {
   height: 100%;
 }
 
+
 /* Nav Bar*/
 
 .top-nav {
@@ -65,21 +66,17 @@ h1{
 }
 
 .hero-content {
-  /* align-content: center;
-  justify-content: space-between; */
   align-items: center;
   display: flex;
   flex-direction: column;
   padding: 20vh 0 30vh 0;
-  /* width: 50%; */
+
 }
 
 .hero-heading {
   font-size: 64px;
   margin-bottom: 40px;  
 }
-
-
 
 
 /* portfolio section */
@@ -109,21 +106,18 @@ h1{
   flex-wrap: wrap;
   margin-bottom: 2vh;
 }
+
 .portfolio-images img {
   max-width: 50vh;
   margin :0.4vw;
   border-radius: .7rem;
-  /* margin: 1rem; */
-  /* margin-right: vh; */
 }
+
 .portfolio-images img:hover {
   transform: scale(1.08);
   cursor: pointer;
   transition: .2s;
-  /* margin: 1rem; */
-  /* margin-right: vh; */
 }
-
 
 
 /* about section */
@@ -143,7 +137,6 @@ h1{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* max-width: 20vh; */
 }
 
 .column-content {
@@ -170,7 +163,6 @@ h1{
 }
 
 
-
 /* contact us section */
 
 .contact-us-container{
@@ -187,7 +179,6 @@ h1{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* max-width: 40rem; */
 }
 
 .contact-us-container form input{
@@ -203,8 +194,8 @@ h1{
   color: white;
   border-radius: .5rem;
 }
-.contact-us-container form button:hover {
 
+.contact-us-container form button:hover {
   background-color: #15947b;
   transition: .2s;
   cursor:pointer;
